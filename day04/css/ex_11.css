@@ -1,0 +1,39 @@
+.container {
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+.ex-box {
+    position: relative;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.title {
+    padding-bottom: 5px;
+    font-size: 18px;
+    color: #999999;
+    border-bottom: 2px solid #999999;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: pink;
+}
+
+.child {
+    height: 40px;
+    width: 40px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}

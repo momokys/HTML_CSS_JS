@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-item select ,
+.form-item input,
+.form-item textarea {
+    width: 200px;
+}
+
+.form-item > label {
+    display: inline-block;
+    width: 100px;
+}
+
+.m-right-30 {
+    margin-right: 30px;
+}

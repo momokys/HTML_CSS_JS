@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    height: auto;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+
+button {
+    border-radius: 5px;
+}
+
+input,
+select {
+    border-radius: 5px;
+    outline: none;
+}
+
+select,
+input[type=text],
+input[type=password],
+input[type=date] {
+    height: 30px;
+    font-size: 16px;
+}
+
+.btn-green {
+    background-color: springgreen;
+    border: none;
+}
+
+.m-right-30 {
+    margin-right: 30px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fc-gray {
+    color: #999999;
+}
+
+.container {
+    margin: auto;
+    margin-top: 30px;
+    width: 400px;
+}
+
+.form-item {
+
+    margin-bottom: 16px;
+    vertical-align: center;
+}
+
+.form-item > .left {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.form-item > .center {
+    width: 200px;
+}
+
+.form-item > .right {
+    width: 200px;
+}

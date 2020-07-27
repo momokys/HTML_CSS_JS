@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+input {
+    outline: none;
+}
+
+.w-200 {
+
+}
+
+.h-32 {
+    height: 32px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fc-blue {
+    color: skyblue;
+}
+
+.container {
+    width: 640px;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+}
+
+.form-item > .left {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.form-item > .center {
+    width: 200px;
+}
+
+.form-item > .right {
+    width: 300px;
+}

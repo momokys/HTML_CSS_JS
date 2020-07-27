@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../tools/tools.css" />
+    <link rel="stylesheet" type="text/css" href="../css/ex_11.css" />
+    <style>
+        #child1 {
+            background-color: #1FB5AD;
+        }
+        #child2 {
+            background-color: #ff7300;
+        }
+        #child3 {
+            background-color: skyblue;
+        }
+
+        .green {
+            background-color: #1FB5AD;
+        }
+        .orange {
+            background-color: #ff7300;
+        }
+        .blue {
+            background-color: skyblue;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="ex-box">
+        <div class="title">
+            ID选择器&nbsp;&nbsp;&nbsp;
+            <span class="fs-12">1:绿</span>
+            <span class="fs-12">2:橙</span>
+            <span class="fs-12">3:蓝</span>
+        </div>
+        <div class="parent">
+            <div id="child1" class="child">1</div>
+            <div id="child2" class="child">2</div>
+            <div id="child3" class="child">3</div>
+        </div>
+    </div>
+    <div class="ex-box">
+        <div class="title">
+            类选择器&nbsp;&nbsp;&nbsp;
+            <span class="fs-12">green</span>
+            <span class="fs-12">orange</span>
+            <span class="fs-12">blue</span>
+        </div>
+        <div class="parent">
+            <div class="child green">green</div>
+            <div class="child orange">orange</div>
+            <div class="child blue">blue</div>
+        </div>
+    </div>
+    <div class="ex-box">
+        <div class="title">
+            元素选择器
+        </div>
+        <div class="parent">
+            <div class="child green"></div>
+            <div class="child orange"></div>
+            <div class="child blue"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

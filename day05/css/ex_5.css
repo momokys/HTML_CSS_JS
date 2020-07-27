@@ -1,0 +1,109 @@
+.header {
+    width: 1012px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-left: 30px;
+    background-color: #e5e5e5;
+}
+
+.logo-icon {
+    width: 420px;
+    height: 64px;
+    vertical-align: middle;
+    background: url(../img/ex_5_logo.jpg) no-repeat;
+}
+
+.logo-bg {
+    width: 502px;
+    height: 100px;
+    background: url(../img/ex_5_logo_bg2.gif) no-repeat;
+}
+
+.meta {
+    padding: 0 15px;
+    font-size: 13px;
+    color: white;
+    background-color: #211d1f;
+}
+
+.meta-welcome {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.meta-date {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+}
+
+.tabbar {
+    padding: 0 20px;
+    background-color: #6d7f91;
+}
+
+.nav {
+    float: left;
+}
+
+.nav > span {
+    display: inline-block;
+    width: 94px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.nav > span > a {
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
+
+.icon-vertical-line {
+    display: inline-block;
+    width: 1px;
+    height: 14px;
+    vertical-align: middle;
+    background-image: url(../img/ex_5_icon_l.gif);
+}
+
+.setting {
+    float: right;
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.search {
+    width: 120px;
+    height: 26px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.enlarge-btn {
+    width: 26px;
+    height: 26px;
+    margin-left: 5px;
+    background: url(../img/ex_5_fangda.gif) no-repeat center;
+    background-size: cover;
+}
+
+.language {
+    width: 90px;
+    height: 26px;
+    margin-left: 5px;
+    font-size: 13px;
+}

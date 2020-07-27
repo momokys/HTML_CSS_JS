@@ -1,0 +1,33 @@
+.container {
+    width: 300px;
+    margin: 50px auto;
+}
+
+.website {
+    display: block;
+    width: 250px;
+    height: 56px;
+}
+
+.logo {
+    display: block;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.list {
+    padding-left: 25px;
+    font-size: 14px;
+}
+
+.list > li {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.list > li:before {
+    content: url(../img/ex_7_list_icon.gif);
+    width: 13px;
+    height: 13px;
+}

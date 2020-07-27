@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>框架习题1</title>
+    <link rel="stylesheet" type="text/css" href="../css/ex_6.css" />
+    <link rel="stylesheet" type="text/css" href="../../tools/tools.css"/>
+    <script>
+        function change(el) {
+           let header =  document.getElementsByClassName('main-header')[0]
+            header.innerText = el.innerText
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="side">
+        <div class="side-header">海子诗集</div>
+        <ul>
+            <li class="side-item">
+                <strong>1</strong>.<a href="../article/1.html" target="1" onclick="change(this)" >面朝大海&nbsp;春暖花开</a>
+            </li>
+            <li class="side-item">
+                <strong>2</strong>.<a href="../article/2.html" target="1" onclick="change(this)" >麦子熟了</a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="main-header">
+            面朝大海&nbsp;春暖花开
+        </div>
+        <iframe class="main-content" name="1" scrolling="no" frameborder="0" />
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单作业2</title>
+    <link rel="stylesheet" type="text/css" href="../../tools/tools.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/ex_2.css"/>
+</head>
+<body>
+<div class="container">
+    <div style="margin-bottom: 30px;">
+        <img src="../img/tu1.png" width="400px"/>
+    </div>
+    <div style="border-left: 2px solid skyblue; padding: 5px;margin-bottom: 10px;">
+        注册账号
+    </div>
+    <hr color="#999999" noshade="noshade" />
+    <form method="post" action="#" style="margin-top: 10px;">
+        <div class="form-item">
+            <label class="left" for="nickName">昵称</label>
+            <input class="center" id="nickName" type="text" name="nickName" />
+            <span class="right fs-14 fc-gray ">请输入昵称</span>
+        </div>
+        <div class="form-item">
+            <label class="left" for="password">密码</label>
+            <input class="center" id="password" type="password" name="password" />
+        </div>
+        <div class="form-item">
+            <label class="left" for="r_password">确认密码</label>
+            <input class="center" id="r_password" type="password" name="r_password" />
+        </div>
+        <div class="form-item">
+            <label class="left">性别</label>
+            <span class="center">
+                <span class="m-right-30"><input type="radio" name="sex" value="male" checked />男</span>
+                <span><input type="radio" name="sex" value="female" />女</span>
+            </span>
+        </div>
+        <div class="form-item">
+            <label class="left" for="birthday">生日</label>
+            <input class="center" id="birthday"  type="date" name="birthday" />
+        </div>
+        <div class="form-item">
+            <label class="left" >所在地</label>
+            <span class="center">
+                <select name="country">
+                    <option value="中国">中国</option>
+                </select>
+                <select name="province">
+                    <option value="福建">福建</option>
+                </select>
+                <select name="city">
+                    <option value="厦门">厦门</option>
+                </select>
+            </span>
+        </div>
+        <div class="form-item">
+            <label class="left" for="tel">手机号码</label>
+            <input class="center" id="tel" type="text" name="tel" />
+        </div>
+        <div class="form-item">
+            <p class="center fs-12 fc-gray" style="margin-left: 110px;">
+                可通过该手机号码快速找回密码中国大陆地区以外手机号码
+                <a href="#">点击这里</a>
+            </p>
+        </div>
+        <div class="form-item" >
+            <button class="center btn-green" type="submit" style="margin-left: 110px;height: 50px;" >立即注册</button>
+        </div>
+        <div class="form-item">
+            <label class="center fs-12 fc-gray" style="display: inline-block;margin-left: 110px;">
+                <span>
+                    <input type="checkbox" name="er" value="2" checked />
+                    同时开通QQ空间
+                </span>
+            </label>
+        </div>
+        <div class="form-item ">
+            <label class="center fs-12 fc-gray" style="display: inline-block;margin-left: 110px;">
+                <span>
+                    <input type="checkbox" name="er" value="2" />
+                    我已阅读并同意相关服务条款和隐私政策
+                </span>
+            </label>
+
+        </div>
+    </form>
+</div>
+</body>
+</html>

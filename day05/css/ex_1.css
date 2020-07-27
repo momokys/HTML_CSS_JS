@@ -1,0 +1,65 @@
+.icon {
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    background-image: url(../img/ex_1_1.png);
+    background-position-y: 0;
+}
+
+.icon:hover {
+    background-position-y: -70px;
+}
+
+.icon-ping {
+    background-position-x: calc(-1*66px + 57px);
+}
+
+.icon-misc {
+    background-position-x: calc(-2*66px + 57px);
+}
+
+.icon-calendar {
+    background-position-x: calc(-3*66px + 57px);
+}
+
+.icon-pen {
+    background-position-x: calc(-4*66px + 57px);
+}
+
+.icon-star {
+    background-position-x: calc(-5*66px + 57px);
+}
+
+.icon-box {
+    background-position-x: calc(-6*66px + 57px);
+}
+
+.icon-book {
+    background-position-x: calc(-7*66px + 57px);
+}
+
+.icon-money {
+    background-position-x: calc(-8*66px + 57px);
+}
+
+.icon-message {
+    background-position-x: calc(-9*66px + 57px);
+}
+
+.icon-home {
+    background-position-x: calc(-10*66px + 57px);
+}
+
+.container {
+    width: 860px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+

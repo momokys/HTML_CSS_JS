@@ -1,0 +1,102 @@
+.menu {
+    width: 100%;
+    height: auto;
+    background-color: rgb(50,50,58);
+}
+
+.menu>.item,
+.menu>.item>.label,
+.menu>.item>.item-box,
+.menu>.item>.item-box>* {
+    display: block;
+}
+
+.menu>.item,
+.menu>.item>.item-box {
+    height: auto;
+    cursor: pointer;
+}
+
+.menu>.item {
+    border-bottom: 1px solid hsla(0,0%,100%,.05);
+}
+
+.menu>.item:last-child {
+    border-bottom: 0;
+}
+
+.menu>.item>.label {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 18px;
+    padding: 18px 0 18px 25px;
+    font-size: 13px;
+    color: #aeb2b7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: rgb(50,50,58);
+}
+
+.menu>.item>.label:hover {
+    transition: .3s ease-in;
+    color: #1FB5AD;
+    background-color: rgb(40,40,46);
+}
+
+.menu>.item>.label[data-toggle]:after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    margin-right: 10px;
+    border-bottom: 2px solid #8b8b8b;
+    border-right: 2px solid #8b8b8b;
+    transition: all .3s;
+    transform: rotate(45deg);
+}
+
+.menu>.item>.label[data-toggle]:hover:after {
+    border-bottom: 2px solid #1FB5AD;
+    border-right: 2px solid #1FB5AD;
+}
+
+.menu>.item>.item-box {
+    display: none;
+}
+
+.menu>.item>.item-box>.item {
+    height: 15px;
+    padding: 13px 0 13px 46px;
+    font-size: 13px;
+    color: #aeb2b7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: rgb(50,50,58);
+    transition: .3s ease-in;
+}
+
+.menu>.item>.item-box>.item:hover {
+    color: #1FB5AD;
+    background-color: rgb(40,40,46);
+}
+
+.menu>.item>.item-box>.item-active {
+    color: #1FB5AD;
+    background-color: rgb(40,40,46);
+}
+
+
+.menu>.item>.item-active {
+    color: #1FB5AD;
+    background-color: rgb(40,40,46);
+}
+
+.menu>.item>.item-active[data-toggle]:after {
+    border-bottom: 2px solid #1FB5AD;
+    border-right: 2px solid #1FB5AD;
+    transition: all .3s;
+    transform: rotate(-135deg);
+}

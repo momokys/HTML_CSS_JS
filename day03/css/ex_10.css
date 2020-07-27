@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    height: 690px;
+    margin: 0 auto;
+    padding: 70px 15px 0 15px;
+    box-sizing: border-box;
+
+}
+
+.body-content {
+    height: 100%;
+    margin: 0 120px;
+    box-sizing: border-box;
+
+}
+
+.title-top {
+    margin-top: 40px;
+    font-size: 21px;
+}
+
+.head-hr {
+    display: block;
+    box-sizing: content-box;
+    margin-bottom: 16px;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}

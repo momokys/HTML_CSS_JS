@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../../tools/tools.css"/>
+    <style>
+        li {
+            list-style: none;
+            font-size: 16px;
+            position: relative;
+        }
+        li::before {
+            content: "";
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            position: absolute;
+            margin-left: -10px;
+            margin-top: 10px;
+            background-color: blue;
+        }
+        li:nth-child(1) {
+            font-size: 20px;
+            margin: 10px;
+        }
+        li:nth-child(1):before {
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            margin-left: -15px;
+            margin-top: 10px;
+            background-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li>李克强就疫苗事件作出批示:必须给全国人民一个交代</li>
+        <li>我们每一 个人都是“中国形象代言人”梦幻《蒙古马》</li>
+        <li>贸易紧张引忧虑美多位州长表示支持谈判解决争端</li>
+        <li>“五个一-百”让新时代的壮阔美景更加可期可待</li>
+        <li>[独家V观]走进卢旺达好客的塞内加尔</li>
+        <li><a href="#">问题疫苗卷土重来，中国人不配有免于恐惧的自由?</a></li>
+    </ul>
+</body>
+</html>

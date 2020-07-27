@@ -1,0 +1,47 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: rgb(0,53,128);
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.images {
+    display: flex;
+}
+
+.images > img {
+    margin-right: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.fc-red {
+    color: red;
+}
+
+.fc {
+    color: rgb(0,53,128);
+}
+
+.fc-blue {
+    color: skyblue;
+}
+
+.fc-orange {
+    color: rgb(251,188,139);
+}
+
+.fc-green {
+    color: rgb(23,118,36);
+}

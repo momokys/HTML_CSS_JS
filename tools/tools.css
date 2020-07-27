@@ -1,0 +1,53 @@
+@import "load.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+body{
+    opacity: 0;
+    animation: page-fade-in 3s both;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clear-scroll {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+.clear-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}

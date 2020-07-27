@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单练习1</title>
+    <link rel="stylesheet" type="text/css" href="../../tools/tools.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/ex_1.css"/>
+</head>
+<body>
+<div >
+    <form class="container" method="post" action="#">
+        <div class="form-item">
+            <label for="id">商品编号：</label>
+            <input type="text" id="id" name="id"/>
+        </div>
+        <div class="form-item">
+            <label for="name">商品名：</label>
+            <input id="name" type="text" name="name" />
+        </div>
+        <div class="form-item">
+            <label for="preImg">商品预览图：</label>
+            <input id="preImg" type="file" name="preImg" />
+        </div>
+        <div class="form-item">
+            <label for="total">商品数量：</label>
+            <input id="total" type="text" name="total" />
+        </div>
+        <div class="form-item">
+            <label for="category">商品类别：</label>
+            <select id="category" name="category">
+                <option value="x-0">水果</option>
+            </select>
+        </div>
+        <div class="form-item">
+            <label for="description">商品描述：</label>
+            <textarea id="description" cols="28" name="description"></textarea>
+        </div>
+        <div class="form-item">
+            <button class="m-right-30" type="submit">提交</button>
+            <button type="reset">重置</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

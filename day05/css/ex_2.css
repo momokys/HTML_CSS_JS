@@ -1,0 +1,46 @@
+.container {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.row {
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
+
+.col {
+
+    width: 100px;
+    height: 100px;
+}
+
+.bg-green {
+    background-color: #2af099;
+}
+
+.bg-orange {
+    background-color: #fdc568;
+}
+
+.bg-blue {
+    background-color: #4ed1ff;
+}
+
+.bg-red {
+    background-color: #ff9b99;
+}
+
+.br {
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.br-reverse {
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
